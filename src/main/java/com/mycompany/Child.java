@@ -30,7 +30,7 @@ public class Child {
 		this.name = name;
 	}
 	
-	@ManyToOne(fetch = FetchType.LAZY, cascade={CascadeType.ALL})
+	@ManyToOne(fetch = FetchType.LAZY, cascade={CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE, CascadeType.REFRESH})
 	public Parent getParent() {
 		return parent;
 	}
