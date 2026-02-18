@@ -9,6 +9,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.junit.Test;
 
+//mądry komentarz
 public class SaveTest {
 
 	@Test
